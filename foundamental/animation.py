@@ -12,6 +12,11 @@ fpsClock = pygame.time.Clock()
 DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
 pygame.display.set_caption("Animation")
 
+# Loading and playing background music:
+pygame.mixer.music.load("Green-fields.mp3")
+pygame.mixer.music.play(-1, 0.0) # play forever and start from the begining of the song
+
+
 WHITE = (255, 255, 255)
 # Load the image in
 catImg = pygame.image.load("cat.png")
