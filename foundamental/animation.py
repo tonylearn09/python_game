@@ -1,11 +1,12 @@
-import pygame, sys
-from pygame.locals import *
+import pygame
+import sys
+from pygame.locals import *  # noqa
 
 pygame.init()
 
 # Set up the fpsClock object to control the pause time for animation
-FPS = 30 # frames per second setting
-fpsClock = pygame.time.Clock()
+FPS = 30  # frames per second setting
+fpsClock = pygame.time.Clock()  # Compensate for border
 
 # Set up window
 # flags = 0, and depth = 32, which indicate it use 32 bit for color
@@ -14,8 +15,8 @@ pygame.display.set_caption("Animation")
 
 # Loading and playing background music:
 pygame.mixer.music.load("Green-fields.mp3")
-pygame.mixer.music.play(-1, 0.0) # play forever and start from the begining of the song
-
+# play forever and start from the begining of the song
+pygame.mixer.music.play(-1, 0.0)
 
 WHITE = (255, 255, 255)
 # Load the image in
@@ -41,10 +42,10 @@ while True:
         catx -= 5
         if catx == 10:
             direction = "up"
-    else: # direction is "up"
-       caty -= 5
-       if caty == 10:
-           direction = "right"
+    else:  # direction is "up"
+        caty -= 5
+        if caty == 10:
+            direction = "right"
 
     DISPLAYSURF.blit(catImg, (catx, caty))
 

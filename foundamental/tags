@@ -1,0 +1,27 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+BLACK	/home/tony/python game/python_game/foundamental/draw_shape.py	/^BLACK = (0, 0, 0)$/;"	v	language:Python
+BLUE	/home/tony/python game/python_game/foundamental/draw_shape.py	/^BLUE = (0, 0, 255)$/;"	v	language:Python
+catImg	/home/tony/python game/python_game/foundamental/animation.py	/^catImg = pygame.image.load("cat.png")$/;"	v	language:Python
+catx	/home/tony/python game/python_game/foundamental/animation.py	/^catx = 10$/;"	v	language:Python
+caty	/home/tony/python game/python_game/foundamental/animation.py	/^caty = 10$/;"	v	language:Python
+direction	/home/tony/python game/python_game/foundamental/animation.py	/^            direction = "down"$/;"	v	language:Python
+direction	/home/tony/python game/python_game/foundamental/animation.py	/^            direction = "left"$/;"	v	language:Python
+direction	/home/tony/python game/python_game/foundamental/animation.py	/^            direction = "right"$/;"	v	language:Python
+direction	/home/tony/python game/python_game/foundamental/animation.py	/^            direction = "up"$/;"	v	language:Python
+direction	/home/tony/python game/python_game/foundamental/animation.py	/^direction = "right"$/;"	v	language:Python
+DISPLAYSURF	/home/tony/python game/python_game/foundamental/animation.py	/^DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)$/;"	v	language:Python
+DISPLAYSURF	/home/tony/python game/python_game/foundamental/draw_shape.py	/^DISPLAYSURF = pygame.display.set_mode((400, 300))$/;"	v	language:Python
+DISPLAYSURF	/home/tony/python game/python_game/foundamental/hello_world.py	/^DISPLAYSURF = pygame.display.set_mode((400, 300))$/;"	v	language:Python
+fontObj	/home/tony/python game/python_game/foundamental/hello_world.py	/^fontObj = pygame.font.Font("freesansbold.ttf", 32)$/;"	v	language:Python
+FPS	/home/tony/python game/python_game/foundamental/animation.py	/^FPS = 30  # frames per second setting$/;"	v	language:Python
+fpsClock	/home/tony/python game/python_game/foundamental/animation.py	/^fpsClock = pygame.time.Clock()  # Compensate for border$/;"	v	language:Python
+GREEN	/home/tony/python game/python_game/foundamental/draw_shape.py	/^GREEN = (0, 255, 0)$/;"	v	language:Python
+GREEN	/home/tony/python game/python_game/foundamental/hello_world.py	/^GREEN = (0, 255, 0)$/;"	v	language:Python
+LIGHTBLUE	/home/tony/python game/python_game/foundamental/hello_world.py	/^LIGHTBLUE = (0, 0, 128)$/;"	v	language:Python
+pixObj	/home/tony/python game/python_game/foundamental/draw_shape.py	/^pixObj = pygame.PixelArray(DISPLAYSURF)$/;"	v	language:Python
+RED	/home/tony/python game/python_game/foundamental/draw_shape.py	/^RED = (255, 0, 0)$/;"	v	language:Python
+textRectObj	/home/tony/python game/python_game/foundamental/hello_world.py	/^textRectObj = textSurfaceObj.get_rect()$/;"	v	language:Python
+textSurfaceObj	/home/tony/python game/python_game/foundamental/hello_world.py	/^textSurfaceObj = fontObj.render("Hello world", True, GREEN, LIGHTBLUE)$/;"	v	language:Python
+WHITE	/home/tony/python game/python_game/foundamental/animation.py	/^WHITE = (255, 255, 255)$/;"	v	language:Python
+WHITE	/home/tony/python game/python_game/foundamental/draw_shape.py	/^WHITE = (255, 255, 255)$/;"	v	language:Python
+WHITE	/home/tony/python game/python_game/foundamental/hello_world.py	/^WHITE = (255, 255, 255)$/;"	v	language:Python

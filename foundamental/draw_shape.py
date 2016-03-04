@@ -1,5 +1,6 @@
-import pygame, sys
-from pygame.locals import *
+import pygame
+import sys
+from pygame.locals import *  # noqa
 
 pygame.init()
 
@@ -7,16 +8,17 @@ DISPLAYSURF = pygame.display.set_mode((400, 300))
 pygame.display.set_caption("Drawing")
 
 # Set up colors for readability
-RED   = (255, 0, 0)
+RED = (255, 0, 0)
 GREEN = (0, 255, 0)
-BLUE  = (0, 0, 255)
+BLUE = (0, 0, 255)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 
 # Draw primitive shape
 DISPLAYSURF.fill(WHITE)
-pygame.draw.polygon(DISPLAYSURF, GREEN, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
+pygame.draw.polygon(DISPLAYSURF, GREEN,
+                    ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
 pygame.draw.line(DISPLAYSURF, BLUE, (60, 60), (120, 60), 4)
 pygame.draw.line(DISPLAYSURF, BLUE, (120, 60), (60, 120))
 pygame.draw.line(DISPLAYSURF, BLUE, (60, 120), (120, 120), 4)
@@ -41,5 +43,3 @@ while True:
             pygame.quit()
             sys.exit()
     pygame.display.update()
-
-

@@ -1,0 +1,82 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ALLCOLORS	/home/tony/python game/python_game/memory_puzzle.py	/^ALLCOLORS = (RED, GREEN, BLUE, YELLOW, ORANGE, PURPLE, CYAN)$/;"	v	language:Python
+ALLSHPAES	/home/tony/python game/python_game/memory_puzzle.py	/^ALLSHPAES = (DONUT, SQUARE, DIAMOND, LINES, OVAL)$/;"	v	language:Python
+BASICFONTSIZE	/home/tony/python game/python_game/sliding_puzzle.py	/^BASICFONTSIZE = 20$/;"	v	language:Python
+BGCOLOR	/home/tony/python game/python_game/memory_puzzle.py	/^BGCOLOR = NAVYBLUE$/;"	v	language:Python
+BGCOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^BGCOLOR = DARKTURQUOISE$/;"	v	language:Python
+BLACK	/home/tony/python game/python_game/sliding_puzzle.py	/^BLACK = (0, 0, 0)$/;"	v	language:Python
+BLANK	/home/tony/python game/python_game/sliding_puzzle.py	/^BLANK = None$/;"	v	language:Python
+BLUE	/home/tony/python game/python_game/memory_puzzle.py	/^BLUE = (0, 0, 255)$/;"	v	language:Python
+BOARDCOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^BOARDCOLOR = BRIGHTBLUE$/;"	v	language:Python
+BOARDHEIGHT	/home/tony/python game/python_game/sliding_puzzle.py	/^BOARDHEIGHT = 4$/;"	v	language:Python
+BOARDWIDTH	/home/tony/python game/python_game/sliding_puzzle.py	/^BOARDWIDTH = 4$/;"	v	language:Python
+BOXCOLOR	/home/tony/python game/python_game/memory_puzzle.py	/^BOXCOLOR = WHITE$/;"	v	language:Python
+BOXSIZE	/home/tony/python game/python_game/memory_puzzle.py	/^BOXSIZE = 40  # size of box height and width in pixels$/;"	v	language:Python
+BRIGHTBLUE	/home/tony/python game/python_game/sliding_puzzle.py	/^BRIGHTBLUE = (0, 50, 255)$/;"	v	language:Python
+BROADHEIGHT	/home/tony/python game/python_game/memory_puzzle.py	/^BROADHEIGHT = 7  # number of rows of icons$/;"	v	language:Python
+BROADWIDTH	/home/tony/python game/python_game/memory_puzzle.py	/^BROADWIDTH = 10  # number of columns of icons$/;"	v	language:Python
+BUTTONCOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^BUTTONCOLOR = WHITE$/;"	v	language:Python
+BUTTONTEXTCOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^BUTTONTEXTCOLOR = BLACK$/;"	v	language:Python
+checkForQuit	/home/tony/python game/python_game/sliding_puzzle.py	/^def checkForQuit():$/;"	f	language:Python
+coverBoxAnimation	/home/tony/python game/python_game/memory_puzzle.py	/^def coverBoxAnimation(board, boxesToCover):$/;"	f	language:Python
+CYAN	/home/tony/python game/python_game/memory_puzzle.py	/^CYAN = (0, 255, 255)$/;"	v	language:Python
+DARKTURQUOISE	/home/tony/python game/python_game/sliding_puzzle.py	/^DARKTURQUOISE = (3, 54, 73)$/;"	v	language:Python
+DIAMOND	/home/tony/python game/python_game/memory_puzzle.py	/^DIAMOND = 'diamond'$/;"	v	language:Python
+DONUT	/home/tony/python game/python_game/memory_puzzle.py	/^DONUT = 'donut'$/;"	v	language:Python
+DOWN	/home/tony/python game/python_game/sliding_puzzle.py	/^DOWN = 'down'$/;"	v	language:Python
+drawBoard	/home/tony/python game/python_game/memory_puzzle.py	/^def drawBoard(board, revealed):$/;"	f	language:Python
+drawBoxCovers	/home/tony/python game/python_game/memory_puzzle.py	/^def drawBoxCovers(board, boxes, coverage):$/;"	f	language:Python
+drawHighlightBox	/home/tony/python game/python_game/memory_puzzle.py	/^def drawHighlightBox(boxx, boxy):$/;"	f	language:Python
+drawIcon	/home/tony/python game/python_game/memory_puzzle.py	/^def drawIcon(shape, color, boxx, boxy):$/;"	f	language:Python
+FPS	/home/tony/python game/python_game/memory_puzzle.py	/^FPS = 30$/;"	v	language:Python
+FPS	/home/tony/python game/python_game/sliding_puzzle.py	/^FPS = 30$/;"	v	language:Python
+gameWonAnimation	/home/tony/python game/python_game/memory_puzzle.py	/^def gameWonAnimation(board):$/;"	f	language:Python
+GAPSIZE	/home/tony/python game/python_game/memory_puzzle.py	/^GAPSIZE = 10  # size of gap between boxes in pixels$/;"	v	language:Python
+generateRevealedBoxesData	/home/tony/python game/python_game/memory_puzzle.py	/^def generateRevealedBoxesData(val):$/;"	f	language:Python
+getBlankPosition	/home/tony/python game/python_game/sliding_puzzle.py	/^def getBlankPosition(board):$/;"	f	language:Python
+getBoxAtPixel	/home/tony/python game/python_game/memory_puzzle.py	/^def getBoxAtPixel(x, y):$/;"	f	language:Python
+getRandomizedBoard	/home/tony/python game/python_game/memory_puzzle.py	/^def getRandomizedBoard():$/;"	f	language:Python
+getRandomMove	/home/tony/python game/python_game/sliding_puzzle.py	/^def getRandomMove(board, lastMove=None):$/;"	f	language:Python
+getShapeAndColor	/home/tony/python game/python_game/memory_puzzle.py	/^def getShapeAndColor(board, boxx, boxy):$/;"	f	language:Python
+getStartingBoard	/home/tony/python game/python_game/sliding_puzzle.py	/^def getStartingBoard():$/;"	f	language:Python
+GRAY	/home/tony/python game/python_game/memory_puzzle.py	/^GRAY = (100, 100, 100)$/;"	v	language:Python
+GREEN	/home/tony/python game/python_game/memory_puzzle.py	/^GREEN = (0, 255, 0)$/;"	v	language:Python
+GREEN	/home/tony/python game/python_game/sliding_puzzle.py	/^GREEN = (0, 204, 0)$/;"	v	language:Python
+hasWon	/home/tony/python game/python_game/memory_puzzle.py	/^def hasWon(revealedBoxes):$/;"	f	language:Python
+HIGHLIGHTCOLOR	/home/tony/python game/python_game/memory_puzzle.py	/^HIGHLIGHTCOLOR = BLUE$/;"	v	language:Python
+isValidMove	/home/tony/python game/python_game/sliding_puzzle.py	/^def isValidMove(board, move):$/;"	f	language:Python
+LEFT	/home/tony/python game/python_game/sliding_puzzle.py	/^LEFT = 'left'$/;"	v	language:Python
+leftTopCoordsofBox	/home/tony/python game/python_game/memory_puzzle.py	/^def leftTopCoordsofBox(boxx, boxy):$/;"	f	language:Python
+LIGHTBGCOLOR	/home/tony/python game/python_game/memory_puzzle.py	/^LIGHTBGCOLOR = GRAY$/;"	v	language:Python
+LINES	/home/tony/python game/python_game/memory_puzzle.py	/^LINES = 'lines'$/;"	v	language:Python
+main	/home/tony/python game/python_game/memory_puzzle.py	/^def main():$/;"	f	language:Python
+main	/home/tony/python game/python_game/sliding_puzzle.py	/^def main():$/;"	f	language:Python
+makeMove	/home/tony/python game/python_game/sliding_puzzle.py	/^def makeMove(board, move):$/;"	f	language:Python
+MESSAGECOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^MESSAGECOLOR = WHITE$/;"	v	language:Python
+NAVYBLUE	/home/tony/python game/python_game/memory_puzzle.py	/^NAVYBLUE = (60, 60, 100)$/;"	v	language:Python
+ORANGE	/home/tony/python game/python_game/memory_puzzle.py	/^ORANGE = (255, 128, 0)$/;"	v	language:Python
+OVAL	/home/tony/python game/python_game/memory_puzzle.py	/^OVAL = 'oval'$/;"	v	language:Python
+PURPLE	/home/tony/python game/python_game/memory_puzzle.py	/^PURPLE = (255, 0, 255)$/;"	v	language:Python
+RED	/home/tony/python game/python_game/memory_puzzle.py	/^RED = (255, 0, 0)$/;"	v	language:Python
+revealBoxAnimation	/home/tony/python game/python_game/memory_puzzle.py	/^def revealBoxAnimation(board, boxesToReveal):$/;"	f	language:Python
+REVEALSPEED	/home/tony/python game/python_game/memory_puzzle.py	/^REVEALSPEED = 8  # speed boxes' sliding reveals and covers$/;"	v	language:Python
+RIGHT	/home/tony/python game/python_game/sliding_puzzle.py	/^RIGHT = 'right'$/;"	v	language:Python
+splitIntoGroupOf	/home/tony/python game/python_game/memory_puzzle.py	/^def splitIntoGroupOf(groupSize, theList):$/;"	f	language:Python
+SQUARE	/home/tony/python game/python_game/memory_puzzle.py	/^SQUARE = 'square'$/;"	v	language:Python
+startGameAnimation	/home/tony/python game/python_game/memory_puzzle.py	/^def startGameAnimation(board):$/;"	f	language:Python
+terminate	/home/tony/python game/python_game/sliding_puzzle.py	/^def terminate():$/;"	f	language:Python
+TEXTCOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^TEXTCOLOR = WHITE$/;"	v	language:Python
+TILECOLOR	/home/tony/python game/python_game/sliding_puzzle.py	/^TILECOLOR = GREEN$/;"	v	language:Python
+TILESIZE	/home/tony/python game/python_game/sliding_puzzle.py	/^TILESIZE = 80$/;"	v	language:Python
+UP	/home/tony/python game/python_game/sliding_puzzle.py	/^UP = 'up'$/;"	v	language:Python
+WHITE	/home/tony/python game/python_game/memory_puzzle.py	/^WHITE = (255, 255, 255)$/;"	v	language:Python
+WHITE	/home/tony/python game/python_game/sliding_puzzle.py	/^WHITE = (255, 255, 255)$/;"	v	language:Python
+WINDOWHEIGHT	/home/tony/python game/python_game/memory_puzzle.py	/^WINDOWHEIGHT = 480$/;"	v	language:Python
+WINDOWHEIGHT	/home/tony/python game/python_game/sliding_puzzle.py	/^WINDOWHEIGHT = 480$/;"	v	language:Python
+WINDOWWIDTH	/home/tony/python game/python_game/memory_puzzle.py	/^WINDOWWIDTH = 640$/;"	v	language:Python
+WINDOWWIDTH	/home/tony/python game/python_game/sliding_puzzle.py	/^WINDOWWIDTH = 640$/;"	v	language:Python
+XMARGIN	/home/tony/python game/python_game/memory_puzzle.py	/^XMARGIN = int((WINDOWWIDTH - (BROADWIDTH * (BOXSIZE + GAPSIZE))) \/ 2)$/;"	v	language:Python
+XMARGIN	/home/tony/python game/python_game/sliding_puzzle.py	/^XMARGIN = int((WINDOWWIDTH - (TILESIZE * BOARDWIDTH + (BOARDWIDTH - 1))) \/ 2)$/;"	v	language:Python
+YELLOW	/home/tony/python game/python_game/memory_puzzle.py	/^YELLOW = (255, 255, 0)$/;"	v	language:Python
+YMARGIN	/home/tony/python game/python_game/memory_puzzle.py	/^YMARGIN = int((WINDOWHEIGHT - (BROADHEIGHT * (BOXSIZE + GAPSIZE))) \/ 2)$/;"	v	language:Python
+YMARGIN	/home/tony/python game/python_game/sliding_puzzle.py	/^YMARGIN = int((WINDOWHEIGHT -$/;"	v	language:Python
